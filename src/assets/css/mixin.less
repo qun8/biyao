@@ -1,0 +1,81 @@
+//这里是对于使用reset.css之后的一些自定义的默认的css初始化
+//设置一些移动端比较流行的字体
+//其他都是为了方便开发,避免css的属性继承影响模块的代码
+body, html {
+  line-height: 1;
+  font-weight: 200;
+  font-family: 'PingFang SC', 'STHeitiSc-Light', 'Helvetica-Light', Arial, sans-serif;
+}
+
+//=============================================================
+//解决移动端一像素边框问题
+.border-1px(@color){
+  position: relative;
+  &:after{
+    content: '';
+    dispaly: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: @color;
+  }
+}
+//根据媒体查询@media设置不同的缩放比例(transform 的 scale)来修复1像素边框的问题
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5){
+    &:after {
+      -webkit-transform: scaleY(0.7);
+      transform: scaleY(0.7);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2.0),(min-device-pixel-ratio: 2.0){
+    &:after {
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3.0),(min-device-pixel-ratio: 3.0){
+    &:after {
+      -webkit-transform: scaleY(0.333);
+      transform: scaleY(0.333);
+    }
+}
+
+//=============================================================
+//消除一像素效果  goods
+.border-none(){
+  &:after {
+    display: none;
+  }
+}
+//=============================================================
+//处理2x 3x图片
+.bg-image(@url) {
+  background-image: url("@{url}@2x.png");
+  @media only screen and (-webkit-min-device-pixel-ratio: 3.0),(min-device-pixel-ratio: 3.0) {
+    background-image: url("@{url}@3x.png");
+  }
+}
+
+.clearfix {//清浮动
+  display: inline-block;
+  &:after {
+    display: block;
+    content: '';
+    height: 0;
+    line-height: 0;
+    clear:both;
+    visibility: height;
+  }
+}
+
+
+
+
+
+
+
+
+
+
