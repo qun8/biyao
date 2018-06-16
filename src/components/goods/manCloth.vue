@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        $END$
+        mancloth component
     </div>
 </template>
 

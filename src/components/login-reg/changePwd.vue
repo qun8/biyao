@@ -1,12 +1,12 @@
 <template>
     <div class="">
-        sort component
+        changePwd
     </div>
 </template>
 
 <script>
     export default {
-        name: "sort"
+        name: "changePwd"
     }
 </script>
 

@@ -1,6 +1,7 @@
 <template>
     <div class="">
-        $END$
+        cart component
+        <i class="icon icon-shopping-cart"></i>
     </div>
 </template>
 
@@ -10,6 +11,6 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="less">
+    /*@import "../../assets/css/style.css";*/
 </style>

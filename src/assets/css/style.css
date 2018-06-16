@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?63t34j');
-  src:  url('fonts/icomoon.eot?63t34j#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?63t34j') format('truetype'),
-    url('fonts/icomoon.woff?63t34j') format('woff'),
-    url('fonts/icomoon.svg?63t34j#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?odndjy');
+  src:  url('../fonts/icomoon.eot?odndjy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?odndjy') format('truetype'),
+    url('../fonts/icomoon.woff?odndjy') format('woff'),
+    url('../fonts/icomoon.svg?odndjy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,6 +32,12 @@
 }
 .icon-location:before {
   content: "\e901";
+}
+.icon-eye-hidden:before {
+  content: "\e924";
+}
+.icon-eye:before {
+  content: "\e925";
 }
 .icon-mail-envelope-closed:before {
   content: "\e902";
@@ -82,9 +88,6 @@
 .icon-exclamation-outline2:before {
   content: "\e90c";
 }
-.icon-exclamation-outline:before {
-  content: "\e90d";
-}
 .icon-add-outline:before {
   content: "\e90e";
 }
@@ -108,9 +111,6 @@
 }
 .icon-shopping-bag:before {
   content: "\e915";
-}
-.icon-shopping-bag2:before {
-  content: "\e916";
 }
 .icon-credit-card2:before {
   content: "\e917";
@@ -141,6 +141,9 @@
 }
 .icon-grid:before {
   content: "\e91f";
+}
+.icon-qq:before {
+  content: "\e926";
 }
 .icon-commenting-o:before {
   content: "\e920";

@@ -1,12 +1,12 @@
 <template>
     <div class="">
-        sort component
+        login
     </div>
 </template>
 
 <script>
     export default {
-        name: "sort"
+        name: "login"
     }
 </script>
 
