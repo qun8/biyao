@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="tab">
+    <div class="tab" v-show="tabShow">
       <div class="tab-item">
         <router-link to="/home">
           <i class="icon icon-home"></i>
@@ -35,6 +35,23 @@
   </div>
 </template>
 
+<script>
+  export default {
+      data() {
+          return {
+              tabShow:true,
+          }
+      },
+      // created() {
+      //     console.log('created');
+      //     this.$on("table",function (tab) {
+      //         console.log("监听到tab事件",tab);
+      //     });
+      // },
+
+  }
+</script>
+
 <style lang="less">
   @import "assets/css/style.css";//icon字体
   @import "./assets/css/mixin";
@@ -47,6 +64,7 @@
     position: fixed;
     bottom: 0;
     border-top: 1px solid #ccc;
+    background-color: white;
     //.border-1px(#ccc);
     width: 100%;
     .tab-item {
