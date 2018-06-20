@@ -45,10 +45,12 @@
   .tab {
     display: flex;
     position: fixed;
+    z-index: 99;
     bottom: 0;
     border-top: 1px solid #ccc;
     //.border-1px(#ccc);
     width: 100%;
+    back
     .tab-item {
       flex: 1;
       a {

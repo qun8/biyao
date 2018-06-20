@@ -154,3 +154,6 @@
 .icon-user-circle:before {
   content: "\e922";
 }
+.icon-trash-can:before {
+    content: "\e90d";
+}

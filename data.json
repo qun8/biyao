@@ -11,64 +11,64 @@
               "name":"T恤",
               "data":[
                 {
-                  "goodId":"01110011",//01:男装   1:男士内搭  1:T恤   0001:双面布丝光柔滑短T（2件）
-                  "goodNav":"双面布丝光柔滑短T（2件）",//商品导航标题
-                  "goodTitle":"80S双面布丝光柔滑短T（2件装）5005",//商品标题
-                  "goodIntro":"80S/1双面布纯棉面料，舒适柔软，质感细腻，吸汗透气",//商品简介
+                  "goodId":"01110011",
+                  "goodNav":"双面布丝光柔滑短T（2件）",
+                  "goodTitle":"80S双面布丝光柔滑短T（2件装）5005",
+                  "goodIntro":"80S/1双面布纯棉面料，舒适柔软，质感细腻，吸汗透气",
                   "goodImg":"http://bfs.biyao.com/group1/M00/00/6C/rBACVFkT4sGASgPEAAJVLA27Slw348.jpg",
-                  "price":"199",//售价
-                  "time":"5",//生产周期
-                  "color":"blue",//颜色
-                  "size":"s",//尺寸
-                  "number":"5"//数量
+                  "price":"199",
+                  "time":"5",
+                  "color":"blue",
+                  "size":"s",
+                  "number":"5"
                 },
                 {
-                  "goodId":"01110012",//01:男装   1:男士内搭  1:T恤   0001:双面布丝光柔滑短T（2件）
-                  "goodNav":"50S婴儿级无感印花水柔棉T",//商品导航标题
-                  "goodTitle":"男士50S基础T恤婴儿级无感印花超柔水柔棉半袖T恤CafeOle MB2T043",//商品标题
-                  "goodIntro":"纱线采用50支双100%超柔水柔棉，手感顺滑，柔软舒适、透气，垂感好。",//商品简介
+                  "goodId":"01110012",
+                  "goodNav":"50S婴儿级无感印花水柔棉T",
+                  "goodTitle":"男士50S基础T恤婴儿级无感印花超柔水柔棉半袖T恤CafeOle MB2T043",
+                  "goodIntro":"纱线采用50支双100%超柔水柔棉，手感顺滑，柔软舒适、透气，垂感好。",
                   "goodImg":"http://bfs.biyao.com/group1/M00/39/3B/rBACVFsLYh2ARkaLAAFVpDiQcPU543.jpg",
-                  "price":"99",//售价
-                  "time":"7",//生产周期
-                  "color":"blue",//颜色
-                  "size":"s",//尺寸
-                  "number":"5"//数量
+                  "price":"99",
+                  "time":"7",
+                  "color":"blue",
+                  "size":"s",
+                  "number":"5"
                 },
                 {
-                  "goodId":"01110013",//01:男装   1:男士内搭  1:T恤   0001:双面布丝光柔滑短T（2件）
-                  "goodNav":"冰氧吧面料圆领T恤",//商品导航标题
-                  "goodTitle":"动物印花冰氧吧圆领T恤BY1036",//商品标题
-                  "goodIntro":"冰氧吧面料由台湾原料加工而成，台湾发明专利第I350872号。",//商品简介
+                  "goodId":"01110013",
+                  "goodNav":"冰氧吧面料圆领T恤",
+                  "goodTitle":"动物印花冰氧吧圆领T恤BY1036",
+                  "goodIntro":"冰氧吧面料由台湾原料加工而成，台湾发明专利第I350872号。",
                   "goodImg":"http://bfs.biyao.com/group1/M00/3A/42/rBACW1sFHaaAa3IfAAFZKO73dO0350.jpg",
-                  "price":"159",//售价
-                  "time":"7",//生产周期
-                  "color":"blue",//颜色
-                  "size":"s",//尺寸
-                  "number":"7"//数量
+                  "price":"159",
+                  "time":"7",
+                  "color":"blue",
+                  "size":"s",
+                  "number":"7"
                 },
                 {
-                  "goodId":"01110014",//01:男装   1:男士内搭  1:T恤   0001:双面布丝光柔滑短T（2件）
-                  "goodNav":"圆领基础款精梳棉针织T恤",//商品导航标题
-                  "goodTitle":"男士纯色圆领基础款精梳棉T恤提花挑孔针织短袖",//商品标题
-                  "goodIntro":"精梳棉超轻质针织衫，吸汗透气；经典藏蓝和墨绿，男士基础款短袖，夏日必备~",//商品简介
+                  "goodId":"01110014",
+                  "goodNav":"圆领基础款精梳棉针织T恤",
+                  "goodTitle":"男士纯色圆领基础款精梳棉T恤提花挑孔针织短袖",
+                  "goodIntro":"精梳棉超轻质针织衫，吸汗透气；经典藏蓝和墨绿，男士基础款短袖，夏日必备~",
                   "goodImg":"http://bfs.biyao.com/group1/M00/3D/4A/rBACYVsg0kmAF9TIAAF2OLPRMCM293.jpg",
-                  "price":"199",//售价
-                  "time":"7",//生产周期
-                  "color":"blue",//颜色
-                  "size":"s",//尺寸
-                  "number":"5"//数量
+                  "price":"199",
+                  "time":"7",
+                  "color":"blue",
+                  "size":"s",
+                  "number":"5"
                 },
                 {
-                  "goodId":"01110015",//01:男装   1:男士内搭  1:T恤   0001:双面布丝光柔滑短T（2件）
-                  "goodNav":"压花短袖圆领T恤",//商品导航标题
-                  "goodTitle":"撞色压花短袖T恤BY1030",//商品标题
-                  "goodIntro":"冰氧吧面料由台湾原料加工而成，台湾发明专利第I350872号。",//商品简介
+                  "goodId":"01110015",
+                  "goodNav":"压花短袖圆领T恤",
+                  "goodTitle":"撞色压花短袖T恤BY1030",
+                  "goodIntro":"冰氧吧面料由台湾原料加工而成，台湾发明专利第I350872号。",
                   "goodImg":"http://bfs.biyao.com/group1/M00/3D/28/rBACYVsfmQaAUIbpAAE1zczHMlk635.jpg",
-                  "price":"159",//售价
-                  "time":"7",//生产周期
-                  "color":"blue",//颜色
-                  "size":"s",//尺寸
-                  "number":"5"//数量
+                  "price":"159",
+                  "time":"7",
+                  "color":"blue",
+                  "size":"s",
+                  "number":"5"
                 }
               ]
 
@@ -80,6 +80,78 @@
       ]
 
     }
-
+  ],
+  "cartGoods":[
+    {
+      "storeName":"CM鞋履",
+      "goods":[
+        {
+          "goodId":"0022",
+          "goodTitle":"尖头凉鞋5",
+          "goodImg":"https://bfs.biyao.com/group1/M00/39/7F/rBACYVr_67eAJ6XoAAE6BdaJqnE026.jpg",
+          "price":"199",
+          "color":"pink",
+          "size":"s",
+          "count":"2"
+        }
+      ]
+    },
+    {
+      "storeName":"WIN拉箱",
+      "goods":[
+        {
+          "goodId":"0023",
+          "goodTitle":"WIN超轻PP拉箱",
+          "goodImg":"https://bfs.biyao.com/group1/M00/27/6C/rBACVFpUjzyAW4pCAABciitUPWI873.jpg",
+          "price":"199",
+          "color":"black",
+          "size":"s",
+          "count":"1"
+        },
+        {
+          "goodId":"0010",
+          "goodTitle":"WIN超轻儿童拉箱",
+          "goodImg":"https://bfs.biyao.com/group1/M00/02/4F/rBACW1kT48-AFJpRAADwugjOmJU396.jpg",
+          "price":"199",
+          "color":"black",
+          "size":"s",
+          "count":"1"
+        },{
+          "goodId":"0012",
+          "goodTitle":"WIN超轻PP小猪佩奇拉箱",
+          "goodImg":"https://bfs.biyao.com/group1/M00/27/AF/rBACW1pF7tiAQp4mAAEUXh0JoJo918.png",
+          "price":"199",
+          "color":"black",
+          "size":"s",
+          "count":"1"
+        },
+        {
+          "goodId":"0013",
+          "goodTitle":"WIN超轻PP拉箱",
+          "goodImg":"https://bfs.biyao.com/group1/M00/27/6C/rBACVFpUjzyAW4pCAABciitUPWI873.jpg",
+          "price":"199",
+          "color":"black",
+          "size":"s",
+          "count":"1"
+        },
+        {
+          "goodId":"0014",
+          "goodTitle":"WIN超轻儿童拉箱",
+          "goodImg":"https://bfs.biyao.com/group1/M00/02/4F/rBACW1kT48-AFJpRAADwugjOmJU396.jpg",
+          "price":"199",
+          "color":"black",
+          "size":"s",
+          "count":"1"
+        },{
+          "goodId":"0015",
+          "goodTitle":"WIN超轻PP小猪佩奇拉箱",
+          "goodImg":"https://bfs.biyao.com/group1/M00/27/AF/rBACW1pF7tiAQp4mAAEUXh0JoJo918.png",
+          "price":"199",
+          "color":"black",
+          "size":"s",
+          "count":"1"
+        }
+      ]
+    }
   ]
 }

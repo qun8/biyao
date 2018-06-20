@@ -6,6 +6,7 @@ import Home from './components/home/home'
 import Sort from './components/sort/sort'
 import Cart from "./components/cart/cart"
 import Mine from "./components/mine/mine"
+import AddAddress from './components/cart/addAddress'
 
 import ManCloth from "./components/goods/manCloth"
 
@@ -54,6 +55,11 @@ export default new Router({
             path: '/mine/changePwd',
             name: 'changePwd',
             component: ChangePwd,
+        },
+        {
+            path: '/addAddress',
+            name: 'addAddress',
+            component: AddAddress,
         },
     ],
     mode: "history",
