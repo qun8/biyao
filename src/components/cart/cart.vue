@@ -82,7 +82,7 @@
                 <span>去逛逛</span>
             </div>
         </div>
-        <!--购物车底部结算按钮-->
+        购物车底部结算按钮
         <div class="cart-accounts">
             <div class="account-right">
                 <span>合计：</span>
