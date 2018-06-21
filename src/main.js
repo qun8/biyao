@@ -7,6 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import $ from 'jquery';
 
+//三级联动
+import { pca, pcaa } from 'area-data';
+import 'vue-area-linkage/dist/index.css'
+import VueAreaLinkage from 'vue-area-linkage';
+Vue.use(VueAreaLinkage)
+
+import { AreaSelect } from 'vue-area-linkage';
+Vue.use(AreaSelect);
+
+
 import axios from "axios"
 
 import ImgCheck from './components/login-reg/imgCheck'//图片验证码

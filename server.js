@@ -24,7 +24,7 @@ app.get("/data/cartGoods",function (req,res) {
     })
 });
 
-app.listen(8888);
+app.listen(8889);
 
 
 

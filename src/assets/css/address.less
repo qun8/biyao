@@ -1,0 +1,231 @@
+@baseColorAddress: #b768a5;
+@baseColor2Address: #fff;
+@baseColor3Address: #333;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.address-container {
+  width: 100%;
+  height: 100vh;
+  .top-fix {
+    height: 42px;
+  }
+  .address-title {
+    width: 100%;
+    min-width: 320px;
+    height: 42px;
+    background-color: @baseColor2Address;
+    color: @baseColor3Address;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    box-shadow: 1px 1px 5px rgba(7, 0, 2, .2);
+    .icon {
+      cursor: pointer;
+      font-size: 40px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-right: 5px;
+      color: @baseColor3Address;
+    }
+    h2 {
+      font-size: 16px;
+      color: @baseColor3Address;
+      line-height: 42px;
+      width: 240px;
+      margin: 0 auto;
+      text-align: center;
+      span {
+        display: block;
+      }
+    }
+  }
+  .send-address {
+    form {
+      padding: 10px;
+      label {
+        display: block;
+        font-size: 14px;
+        line-height: 40px;
+        color: @baseColor3Address;
+        input {
+          width: 100%;
+          border: 1px solid #cccccc;
+          border-radius: 3px;
+          height: 35px;
+          padding: 5px;
+          box-sizing: border-box;
+          &:focus {
+            outline: 0;
+            border: 1px solid #523669;
+          }
+        }
+      }
+      p {
+        overflow: hidden;
+        .no-check {
+          cursor: pointer;
+          display: block;
+          background-color: #ccc;
+          border-radius: 5px;
+          width: 16px;
+          height: 16px;
+          margin-top: 6px;
+          float: left;
+        }
+        .default-check {
+          cursor: pointer;
+          display: block;
+          background: url("../../assets/img/s2.png") no-repeat;
+          background-size: 100%;
+          width: 16px;
+          height: 16px;
+          margin-top: 6px;
+          float: left;
+        }
+        span {
+          float: left;
+          display: inline-block;
+          font-size: 12px;
+          margin: 6px 0 0 10px;
+        }
+
+      }
+      .address-submit {
+        padding: 10px 0;
+        background-color: @baseColorAddress;
+        border-radius: 5px;
+        font-size: 15px;
+        color: @baseColor2Address;
+        border: 0;
+        width: 96%;
+        display: block;
+        margin: 35px auto;
+        text-align: center;
+        outline: none;
+      }
+    }
+  }
+  //地址管理
+  .address-book {
+    .add-new-address {
+      padding: 10px 0;
+      width: 96%;
+      color: white;
+      background-color: @baseColorAddress;
+      border-radius: 5px;
+      font-size: 15px;
+      border: 1px solid @baseColorAddress;
+      display: block;
+      margin: 12px auto;
+      text-align: center;
+      outline: none;
+    }
+    .all-address {
+      padding: 12px;
+      font-size: 13px;
+      .address-item {
+        margin-bottom: 15px;
+        .m-address {
+          user-select: none;
+          border-bottom: dotted 1px #ccc;
+          p {
+            padding-bottom: 10px;
+            &:last-child {
+              word-wrap: break-word;
+            }
+          }
+        }
+        .m-address-2 {
+          padding: 10px 0;
+          overflow: hidden;
+          border-bottom: 1px solid #ccc;
+          p {
+            display: inline-block;
+          }
+          i {
+            cursor: pointer;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 6px;
+          }
+          span {
+            vertical-align: middle;
+          }
+          .no-check {
+            background-color: #ccc;
+            border-radius: 5px;
+          }
+          .default-check {
+            background: url("../../assets/img/s2.png") no-repeat;
+            background-size: 100%;
+          }
+          .edit-del {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+  //底部
+  .address-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+    .a-c-footer {
+      width: 100%;
+      p {
+        margin: 0 12px;
+        text-align: center;
+        padding: 10px 0;
+        overflow: hidden;
+        span {
+          display: inline-block;
+          float: left;
+          vertical-align: middle;
+        }
+        .line {
+          padding: 0;
+        }
+        .nick-name {
+          float: left;
+          width: 50px;
+          margin: 0 5px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          vertical-align: middle;
+        }
+        .login-out {
+          width: 30px;
+        }
+        .to-top, .about {
+          float: right;
+          padding: 0 5px;
+        }
+      }
+    }
+    .a-f-footer {
+      border-top: 1px solid #999;
+      padding: 13px 0 15px;
+      width: 100%;
+      text-align: center;
+      p {
+        span {
+          display: inline-block;
+          padding: 0 5px;
+          &:first-child{
+            color: @baseColorAddress;
+          }
+        }
+      }
+    }
+  }
+}
