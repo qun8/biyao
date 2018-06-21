@@ -2,54 +2,6 @@
     <div class="header">
         <search></search>
 
-        <div class="headerNav" ref="navScroll">
-                <div class="" ref="divScroll">
-                    <router-link to="/mine/manCloth" class="item">推荐</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">经典男装</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">潮流女装</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">时尚眼镜</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">内衣配饰</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">母婴童装</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">男女鞋靴</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">户外运动</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">箱包出行</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">美妆个护</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">生活居家</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">厨具水具</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">家用电器</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">家装五金</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">家具家具</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">3C数码</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">汽车配件</router-link>
-
-                    <router-link to="/mine/manCloth" class="item">医疗保健</router-link>
-
-
-                    <router-link to="/mine/manCloth" class="item">个性定制</router-link>
-
-                </div>
-
-
-
-
-
-        </div>
         <i class=" icon-keyboard_arrow_down"></i>
         <router-view></router-view>
     </div>
@@ -119,51 +71,7 @@
     @import "../../assets/css/mixin";
     .header {
         /*overflow: hidden;*/
-        .headerNav {
-            /*border: 1px solid;*/
-            position: relative;
-            /*left: -50%;*/
-            font-size: 12px;
-            width: 440%;
-            height: 30px;
-            line-height: 30px;
-            margin: 15px auto 10px auto;
 
-            div {
-                border: 1px solid;
-                display: flex;
-                justify-content:space-around;
-
-
-                .item {
-                    /*flex-grow: 3;*/
-
-
-                        text-decoration: none;
-                        color: black;
-                        font-size: 14px;
-
-
-                    /*float: left;*/
-                }
-            }
-
-
-
-
-
-            /*.item {*/
-                /*width: 50px;*/
-                /*height: 20px;*/
-                /*text-align: center;*/
-                /*float: left;*/
-                /*!*flex-grow:5;*!*/
-                /*border-bottom: 1px solid;*/
-                /*margin: 0 3px 0 3px;*/
-            /*}*/
-
-
-        }
         .icon-keyboard_arrow_down {
             position: absolute;
             top: 55px;

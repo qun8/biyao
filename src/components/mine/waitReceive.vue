@@ -1,12 +1,12 @@
 <template>
-    <div class="">
-        login
+    <div class="waitReceive">
+        waitReceive
     </div>
 </template>
 
 <script>
     export default {
-        name: "login"
+        name: "waitReceive"
     }
 </script>
 
