@@ -1,6 +1,12 @@
 <template>
-    <div class="container">
-        添加地址
+    <div class="address-container">
+        <div class="top-fix"></div>
+        <div class="address-title">
+            <i class="icon icon-keyboard_arrow_left"></i>
+            <h2>添加收货地址</h2>
+
+
+        </div>
     </div>
 </template>
 
@@ -10,6 +16,9 @@
     }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+    .address-container{
+        width: 100%;
 
+    }
 </style>
