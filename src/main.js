@@ -9,6 +9,11 @@ import $ from 'jquery';
 
 import axios from "axios"
 
+import ImgCheck from './components/login-reg/imgCheck'//图片验证码
+Vue.use(ImgCheck)
+
+
+
 Vue.config.productionTip = false
 Vue.prototype.$http=axios;
 Vue.prototype.$api = "/api";//生产环境打包时 将其替换为http://localhost:8888/data

@@ -12,7 +12,12 @@
 
 <script>
     export default {
-        name: "add-address"
+        name: "add-address",
+        data(){
+            return {
+                tabShow:false,
+            }
+        }
     }
 </script>
 

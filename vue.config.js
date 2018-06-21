@@ -4,7 +4,7 @@ module.exports = {
     devServer:{
         proxy: {
             '/api': {
-                target: 'http://localhost:8888', //api端口
+                target: 'http://localhost:8889', //api端口
                 changeOrigin: true,   //允许跨域
                 pathRewrite: {
                     '^/api': ''

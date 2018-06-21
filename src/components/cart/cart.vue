@@ -3,7 +3,9 @@
         <div id="cart-all">
             <div class="top-fix"></div>
             <div class="cart-title">
-                <i class="icon icon-home"></i>
+                <router-link to="/home">
+                    <i class="icon icon-home"></i>
+                </router-link>
                 <h2>购物车</h2>
                 <span @click="editAll">
                     <span class="edit-all" v-show="!edit">编辑</span>
@@ -99,15 +101,14 @@
                 </div>
             </div>
         </div>
-        <!--<bottom-nav></bottom-nav>-->
+        <bottom-nav></bottom-nav>
     </div>
 </template>
 
 <script>
-    import BottomNav from '../common/bottomNav'
     import CountControl from './countControl'
+    import BottomNav from '../common/bottomNav'
     import Vue from 'vue'
-    // import  Cart from '../../assets/js/cart'
     export default {
         name: "cart",
         components: {
